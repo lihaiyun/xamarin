@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:MyApp" x:Class="MyApp.MyAppPage">
+	<ScrollView>
+		<StackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+			<Label x:Name="label"
+				Text="Welcome to Xamarin Forms!" HorizontalOptions="Center" />
+			<Button Text="Call" Clicked="OnCall" />
+			<Button Text="Email" Clicked="OnEmail" />
+			<Button Text="Scan" Clicked="OnScan" />
+			<Image x:Name="imgQR" BackgroundColor="Aqua" 
+				WidthRequest="300" HeightRequest="300"/>
+			<ContentView x:Name="myContent" BackgroundColor="Aqua" 
+				WidthRequest="300" HeightRequest="300" IsVisible="false" />
+		</StackLayout>
+	</ScrollView>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{CC1462DA-221F-4A86-9E27-8CF6AB33379F}|Default">
+  <MonoDevelop.Ide.ItemProperties.MyApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.adaa821954eb2e6789e525470b1062db50061766" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="MyApp/MyAppPage.xaml.cs" Line="7" Column="1" />
+      <File FileName="iOS/QRCode.cs" Line="33" Column="39" />
+      <File FileName="Droid/QRCode.cs" Line="33" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MyApp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
